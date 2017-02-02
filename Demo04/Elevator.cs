@@ -21,8 +21,8 @@ namespace HissiApplication
             set
             {
                 if (value <= maxFloor && value >= minFloor) floor = value;
-                else if (value == 10)
-                {
+                else if (value == 10) 
+                { // exit on 10
                     System.Environment.Exit(1);
                 }
                 else if (value > maxFloor)
