@@ -8,11 +8,15 @@ namespace Teht03
 {
     class Employee : Person
     {
-        public string Role = "Employee";
-
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + "\n";
+        }
+
+        public void Promotion()
+        {
+            Profession = "Principal Teacher";
+            Salary = Salary + 1000;
         }
     }
 

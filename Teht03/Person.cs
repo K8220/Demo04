@@ -16,7 +16,7 @@ namespace Teht03
 
         public override string ToString()
         {
-            return "Role: " + Role + " Name: " + FirstName + " " + LastName + " Profession: " + Profession + "Salary: " + Salary;
+            return Role + "\n - " + "Name: " + FirstName + " " + LastName + "\n - Profession: " + Profession + "\n - Salary: " + Salary;
         }
 
     }

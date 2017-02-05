@@ -10,10 +10,9 @@ namespace Teht03
     {
         public string Car { get; set; }
         public int Bonus { get; set; }
-        public string Role = "Boss";
         public override string ToString()
         {
-            return base.ToString() + " Car: " + Car + " Bonus: " + Bonus;
+            return base.ToString() + "\n - Car: " + Car + "\n - Bonus: " + Bonus + "\n";
         }
     }
 }
